@@ -13,4 +13,7 @@
 - -DeleteMapping
 - -PatchMapping
 - -OptionsMapping
+
+#Lombok - library
+It aims to reduce the boilerplate code that developers have to write, such as getters, setters, constructors, and more.
   
