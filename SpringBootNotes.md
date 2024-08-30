@@ -2,7 +2,7 @@
 - dev tools helps not to rerun program after making some changes
 - first static block will run then, instance then object??
 - if adding not camed in code but showing while fetching
-- 
+  
 # Annotations used
 1. SpringBootApplication
 2. GetMapping
@@ -17,7 +17,7 @@
 11. @Document(collection = "journal_entries") for sql queries
 12. Service
 13. Autowired
-- -
+
 
 # Lombok - library
 It aims to reduce the boilerplate code that developers have to write, such as getters, setters, constructors, and more.
