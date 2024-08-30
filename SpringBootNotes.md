@@ -30,5 +30,8 @@ We use to String to fetch the details in our model class because it provide the 
 1. Constructor based @NoArgsConstructor
 2. Setters based when object not mandatory
 3. Autowired when have single class to call
+
+# Implements Serializable 
+1. When need to controll the data fetching will implements the Serializable.
    
   
