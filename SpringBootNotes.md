@@ -13,7 +13,7 @@
 - -DeleteMapping
 - -PatchMapping
 - -OptionsMapping
-- -@Document(collection = "journal_entries")
+- -@Document(collection = "journal_entries") for sql queries
 - -Service
 - -Autowired
 - -
