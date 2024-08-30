@@ -26,7 +26,8 @@ LocalDatetime.Now to fetch todays date
 We use to String to fetch the details in our model class because it provide the detail in hashcode format 
 
 # Types of AutoWiring Dependency Injection 
-1. Constructor based @ConstructorArgs
+1. Constructor based @NoArgsConstructor
 2. Setters based when object not mandatory
 3. Autowired when have single class to call
+   
   
