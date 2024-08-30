@@ -3,19 +3,19 @@
 - first static block will run then, instance then object??
 - if adding not camed in code but showing while fetching
  <h3>Annotations used</h3>
-- -SpringBootApplication
-- -GetMapping
-- -PostMapping
-- -RequestMapping
-- -RestController
-- -Component
-- -GetWired
-- -DeleteMapping
-- -PatchMapping
-- -OptionsMapping
-- -@Document(collection = "journal_entries") for sql queries
-- -Service
-- -Autowired
+1. SpringBootApplication
+2. GetMapping
+3. PostMapping
+4. RequestMapping
+5. RestController
+6. Component
+7. GetWired
+8. DeleteMapping
+9. PatchMapping
+10. OptionsMapping
+11. @Document(collection = "journal_entries") for sql queries
+12. Service
+13. Autowired
 - -
 
 #Lombok - library
