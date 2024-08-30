@@ -13,7 +13,16 @@
 - -DeleteMapping
 - -PatchMapping
 - -OptionsMapping
+- -@Document(collection = "journal_entries")
+- -Service
+- -Autowired
+- -
 
 #Lombok - library
 It aims to reduce the boilerplate code that developers have to write, such as getters, setters, constructors, and more.
+
+LocalDatetime.Now to fetch todays date
+
+We use to String to fetch the details in our model class because it provide the detail in hashcode format 
+
   
