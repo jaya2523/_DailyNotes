@@ -34,4 +34,19 @@ We use to String to fetch the details in our model class because it provide the 
 # Implements Serializable 
 1. When need to controll the data fetching will implements the Serializable.
    
-  
+Logginf level
+=============
+ 
+WARN---->
+ 
+TRACE--->
+ 
+INFO---->
+ 
+DEBUG--->
+ 
+FATAL/ERROR-->
+ 
+ 
+REST->SVC>DAO
+TRACE->INFO-> DEBUG
