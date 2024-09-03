@@ -50,3 +50,5 @@ FATAL/ERROR-->
  
 REST->SVC>DAO <br>
 TRACE->INFO-> DEBUG
+
+jaha fk hogi waha map nahi lagega in relations 
