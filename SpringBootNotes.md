@@ -53,3 +53,4 @@ TRACE->INFO-> DEBUG
 
 jaha fk hogi waha map nahi lagega in relations
 jaha fk hogi waha joinColumn lagega
+In cascad we persist to only add the data
