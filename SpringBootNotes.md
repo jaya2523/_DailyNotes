@@ -53,4 +53,7 @@ TRACE->INFO-> DEBUG
 
 jaha fk hogi waha map nahi lagega in relations
 jaha fk hogi waha joinColumn lagega
+jaha fk hogi waha setObject krna must he
 In cascad we persist to only add the data
+
+Annotations for Controller Advice
