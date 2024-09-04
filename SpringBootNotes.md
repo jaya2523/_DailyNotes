@@ -62,3 +62,6 @@ Annotations for Controller Advice
 2. ControllerAdvice
 3. ResponseStatus
 4. 
+
+Collectors.toList() returns a mutable List, typically an ArrayList, which allows modifications (e.g., adding or removing elements).
+List.toList() returns an immutable List, which cannot be modified after creation.
