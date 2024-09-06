@@ -8,3 +8,14 @@
   load ->
   src-> assets
 angular material and invoke of component + lazy loading + form 
+
+Flex
+--
+angular layout
+
+css
+---
+positions: 
+absolute - child
+static
+relative - parent
