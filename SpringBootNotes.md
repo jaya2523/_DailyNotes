@@ -73,3 +73,7 @@ Used methods and Constructors
 EntityManager
 getCriteriaBuilder
 
+Model Mapper
+--
+config file 
+
