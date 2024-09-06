@@ -65,3 +65,11 @@ Annotations for Controller Advice
 
 Collectors.toList() returns a mutable List, typically an ArrayList, which allows modifications (e.g., adding or removing elements).
 List.toList() returns an immutable List, which cannot be modified after creation.
+
+Criteria Query 
+--
+Basically used when we need to apply filters in our queries for example mneed to search by first name
+Used methods and Constructors
+EntityManager
+getCriteriaBuilder
+
