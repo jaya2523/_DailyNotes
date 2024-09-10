@@ -22,4 +22,30 @@ absolute - child
 static - default
 relative - parent
 
+----
+services
+---
+component = parent-child -> input()/output[], child-child -> Import, export -> Single instance(root), i/p, o/p, service, parent-parent -> service } -> global service
 
+---
+multiple instance(any) -> same functionality but different data.
+---
+
+----
+Directive -> 02/31/2024 -invalid -> attribute DateValidator, pipes, 
+----
+
+
+--
+data binding - b/w script or dom - call by reference ( JSON stringify -> when editing the data) 
+--
+
+ngModel - Bnana braces - [()] - interpolation
+I/P - []
+O/P -()
+
+:: when be in same page html in ts not know about refernce of page.
+
+--
+Interpolation
+--
