@@ -84,9 +84,9 @@ https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbE9
 
 Testing
 --
-1. Unit Testing - multiple components individual testing 
-test driven development - with dev test
-JU - java unit
+1. Unit Testing - multiple components individual testing<br> 
+test driven development - with dev test<br>
+JU - java unit<br>
 SpringBootTestAnnotation - works as an application context.
 
 
