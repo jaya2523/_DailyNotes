@@ -98,3 +98,5 @@ CsvSource, ValueSource, CsvFile, EnumSource, ValueSource.<br>
 CodeCoverage plugin to install.<br>
 @BeforeEach, BeforeAll, AfterEach, AfterAll;
 
+Functional interface lambda, bean lifecycle.
+
