@@ -87,7 +87,7 @@ Testing
 1. Unit Testing - multiple components individual testing<br> 
 test driven development - with dev test<br>
 JU - java unit<br>
-SpringBootTestAnnotation - works as an application context.
-@Test
-@ParametrizedTest
-AssertTrue, Equal and more.
+SpringBootTestAnnotation - works as an application context.<br>
+@Test<br>
+@ParametrizedTest<br>
+AssertTrue, Equal and more.<br>
