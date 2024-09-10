@@ -88,5 +88,6 @@ Testing
 test driven development - with dev test<br>
 JU - java unit<br>
 SpringBootTestAnnotation - works as an application context.
-
-
+@Test
+@ParametrizedTest
+AssertTrue, Equal and more.
