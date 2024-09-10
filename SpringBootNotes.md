@@ -94,4 +94,7 @@ SpringBootTestAnnotation - works as an application context.<br>
 @Test<br>
 @ParametrizedTest<br>
 AssertTrue, Equal and more.<br>
-CsvSource, ValueSource, CsvFile, EnumSource, ValueSource.
+CsvSource, ValueSource, CsvFile, EnumSource, ValueSource.<br>
+CodeCoverage plugin to install.<br>
+@BeforeEach, BeforeAll, AfterEach, AfterAll;
+
