@@ -100,3 +100,39 @@ CodeCoverage plugin to install.<br>
 
 Functional interface lambda, bean lifecycle.
 
+less than 5 sec = sync 
+Spring Profile
+
+<h2> 1. Spring Profile Configuration </h2>
+spring.profiles.active = dev
+
+<h2>Mockito</h2>
+1. Mockito is a framework used for creating mock objects in unit tests. It’s generally used for testing individual components in isolation.
+2. 
+@RunWith(MockitoJUnitRunner.class)
+public class MyServiceTest {
+
+    @Mock
+    private MyRepository myRepository;
+
+    @InjectMocks
+    private MyService myService;
+
+    @Test
+    public void testServiceMethod() {
+        // Arrange
+        when(myRepository.someMethod()).thenReturn(someValue);
+
+        // Act
+        myService.serviceMethod();
+
+        // Assert
+        verify(myRepository).someMethod();
+    }
+}
+
+2. WebMockMvc
+
+WebMockMvc (commonly known as MockMvc) is a class provided by Spring Test to test Spring MVC controllers. It allows you to perform integration tests on your web layer.
+
+JUnit5 = JUnit Platform + JUnit Jupiter + JUnit Vintage.
