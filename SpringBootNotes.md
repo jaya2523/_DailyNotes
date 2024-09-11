@@ -136,3 +136,6 @@ public class MyServiceTest {
 WebMockMvc (commonly known as MockMvc) is a class provided by Spring Test to test Spring MVC controllers. It allows you to perform integration tests on your web layer.
 
 JUnit5 = JUnit Platform + JUnit Jupiter + JUnit Vintage.
+
+@DisplayName
+
