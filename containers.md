@@ -182,8 +182,42 @@ apt-get update
 apt-get install nano
 cd app
 nano test.txt
+
+# Docker Compose
+YAML
+--
+YAML ain't a markup language
+Human friendly data serialization standard
+Used by Docker-Compose and Kuberenetes.
+
+ - Define and Run  mulitple containers applications
+ - Define using yaml
+ - run using the docker cli with compose plugin
+ - compose specs
  
+ Compose v1 cli is different from the docker cli and need python to installed
+ Compose v2 
+ apt-get install docker component
  
+--
+Docke compose cheat sheet
+--
+docker compose build = build the images
+docker compose start = start the containers
+docker compose stop = stop the container
+docker compose up -d = build and start
+docker compose ps
+docker compose rm
+docker compose down
+docker compose logs
+docker composer exec [container] bash.
+
+docker compose --project-name test1 up -d
+docker compose -p test2 up -d
+Copy files from the container 
+docker compose cp [containerId]:[src_path] [dest_path]
+Copy files to the container
+docker compose cp [src_path] [containerId]:[dest_path]
 
 
  
