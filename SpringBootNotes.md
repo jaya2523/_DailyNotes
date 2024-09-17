@@ -139,3 +139,40 @@ JUnit5 = JUnit Platform + JUnit Jupiter + JUnit Vintage.
 
 @DisplayName
 
+--
+Swagger
+---
+-> Open API Specification
+It defines a standardized format for describing APIs comprehensively
+<br>
+
+Swagger is an open-source framework used for designing, building, documenting, and consuming RESTful APIs. It provides a standardized way to describe the structure of an API, making it easier for developers to understand, integrate, and consume the API.
+
+<br>
+<b>Springfox</b>
+
+Springfox is a Java library used to integrate Swagger with Spring Boot applications. It automatically generates Swagger documentation from your Spring controllers and models.
+springfox-boot-starter: A starter dependency to quickly set up and integrate Springfox into a Spring Boot project.
+
+<br>
+<b>For latest version Springdoc Open API</b>
+
+Springdoc OpenAPI is an alternative to Springfox. It is designed to generate API documentation from Spring Boot applications using the OpenAPI 3 specification, which is the latest iteration of the Swagger specification.
+springdoc-openapi-ui: A module that integrates Spring Boot applications with Swagger UI using the OpenAPI 3
+specification.
+<br>
+localhost:8081/swagger-ui/index.html
+
+1. It scans our Spring Boot application for REST controllers and generates the corresponding API documentation
+It automatically generates API documentation without additional configuration
+
+2. Springdoc OpenAPI also scans our application for
+classes that are used as request bodies or response
+bodies.
+
+--
+For Customization of swagger
+--
+1. to create configuration file - info, servers, tags(for ordering)
+2. @Tag to change heading of every method
+3. @Operation in controller 
