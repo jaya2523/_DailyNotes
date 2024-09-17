@@ -219,5 +219,37 @@ docker compose cp [containerId]:[src_path] [dest_path]
 Copy files to the container
 docker compose cp [src_path] [containerId]:[dest_path]
 
+--
+Docker Network
+--
+docker ls
+docker network ls
+docker network connect netowrk_name container_name
+docker network inspect spring-net
+docker run -p 8080:8080 --name library-web-application --net spring-net -e MYSQL_USER=root -e MYSQL_PASSWORD=root -e MYSQL_PORT=3309 lib
 
+docker run -p 9091:8080 --name library-web-application --net spring-net -e MYSQL_USER=root -e MYSQL_PASSWORD=root -e MYSQL_PORT=3309 lib
+
+--
+To connect spring applicationa and mysql to docker 
+--
+1. First we need to create the container of mysql and then have to create db in it then need to check it from spring application as well as from wsl need to use sudo install first.
+   - docker pull mysql
+   -  docker run -it -p 3309:3306 -e MYSQL_ROOT_PASSWORD=root --name mysqldb mysql
+   -  now let us check it on linuc is that port available
+   -  mysql -h 127.0.0.1 -P 3309 -u root -p
+3. then need to create docker file having from (mysql image created), add(jar file), execute(java file)
+   -  sudo apt install maven
+   -  cd /mnt
+   -  maven clean package -DskipTests
+   -  docker build -t rakuten-lib:1.0.0 -
+f Dockerfile .
+- docker network ls
+-  docker network create spring-net
+-   docker network connect spring-net mysqldb
+-   docker run -it -p 9090:8089 --name rakuten-web-app -net network_id container_id
+5. now in spring boot first will create our jar after that will build the image.
+6. then create the network and connect that network to mysql and then will create the container for our spring application.
+
+cd /mnt
  
