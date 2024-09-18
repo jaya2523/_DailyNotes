@@ -73,5 +73,28 @@ Product cluser setup
 **Kubectl** - cli
 mini kubes -- worker process + master process 
 
+kubectl create deployment NAME --image = image_name [options to create more than one replica].
+kubectl get deployments
+kubectl get replicaset
+kubectl edit deploymnet name.
+kubectl describe pod_name
+kubectl exec pod_name -- bin/bash
+kubectl apply -f 
+kubectl expose deployment my-nginx --port=8080 --type=loadBalancer
 
+
+
+• minikube start/delete
+• minikube status
+• minikube dashboard
+• kubectl create deployment my-app --image-link
+• kubectl get deployments
+• kubectl get pods
+• kubectl delete deployment my-app
+
+•
+kubectl expose deployment my-app -- type=LoadBalancer --port=80
+minikube service my-app
+•
+kubectl get services
  
