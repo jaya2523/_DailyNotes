@@ -266,6 +266,12 @@ mage:1.0.3
 - ip: kubectl get pod -o wide
 - endpoints: kubectl get endpoints
 - kubectl get pod --show-labels | grep 'nginx'
+- kubectl exec pod_name -it bash
 - export-port
-- 
+- **RollOut**
+- kubectl set image deployment deployment_name container_name=jaya2507/image_name
+-  kubectl rollout status deployment deployment_name.
+- **Rollback** 
+- kubectl rollout undo deployment deployment_name
  
+   
