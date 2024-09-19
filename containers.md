@@ -260,5 +260,12 @@ To push the image
 -  docker tag web-image:1.0.3 jaya2507/web-i
 mage:1.0.3
 - docker push jaya2507/web-image:1.0.3
+
+--
+- scale: kubectl edit deploy nginx-deployment
+- ip: kubectl get pod -o wide
+- endpoints: kubectl get endpoints
+- kubectl get pod --show-labels | grep 'nginx'
+- export-port
 - 
  
