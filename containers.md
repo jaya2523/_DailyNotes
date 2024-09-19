@@ -252,4 +252,13 @@ f Dockerfile .
 6. then create the network and connect that network to mysql and then will create the container for our spring application.
 
 cd /mnt
+cd/etc
+
+--
+To push the image
+--
+-  docker tag web-image:1.0.3 jaya2507/web-i
+mage:1.0.3
+- docker push jaya2507/web-image:1.0.3
+- 
  
