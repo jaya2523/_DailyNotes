@@ -1,10 +1,10 @@
 --
 Kubernetes
 --
--> Open source container orchestration framework.
--> Developed by google.
--> Helps to manage 100s or 1000s of containerized applications.
--> In different deploymeny environtments - physical, virtual, hybrid.
+- Open source container orchestration framework.
+- Developed by google.
+- Helps to manage 100s or 1000s of containerized applications.
+- In different deploymeny environtments - physical, virtual, hybrid.
 
 --
 What problems kubernetes solve
@@ -13,13 +13,13 @@ What problems kubernetes solve
 What are the tasks of an orchestration tool?
 --
 
--> <b>The need for container orchestration tool</b>
--> Trend from mono to microservices increased usage of containers, demand for a proper way of managing those hundreds of containers is so difficult to do in scripts.
+- <b>The need for container orchestration tool</b>
+- Trend from mono to microservices increased usage of containers, demand for a proper way of managing those hundreds of containers is so difficult to do in scripts.
 <br>
 <b>What features do orchestration tool offer?</b>
--> High Availabity or No downtime
--> Scalability or high performance
--> Disaster recovery - backup and restore.
+- High Availabity or No downtime
+- Scalability or high performance
+- Disaster recovery - backup and restore.
 
 --
 Kubernetes Components
@@ -34,13 +34,13 @@ Kubernetes Components
 Kubernetes Architecture
 --
 1. Worker Nodes
-   -> Each node has multiple pods on it, 3 processes must be installed on everynode and worker nodes do the actual work.
-   -> Kubelet schedule those pods inside the nodes.
-   -> Kubelet work as interface interacts with both - the container and node.
-   -> Kubelet starts the pod with a container inside.
-   -> 1. Container Runtime + Kubelete
-   -> 2. Communication Service
-   -> 3. Kube Proxy sends the request from services to the pods.
+   - Each node has multiple pods on it, 3 processes must be installed on everynode and worker nodes do the actual work.
+   - Kubelet schedule those pods inside the nodes.
+   - Kubelet work as interface interacts with both - the container and node.
+   - Kubelet starts the pod with a container inside.
+   - 1. Container Runtime + Kubelete
+   - 2. Communication Service
+   - 3. Kube Proxy sends the request from services to the pods.
 
    Overcome Network overhead
    --
@@ -48,8 +48,8 @@ Kubernetes Architecture
    schedule pod, monitor, re-schedule/re-start pod?, join a new node?
    --
 
-   -> All the above mentioned managing things are done by master processes.
-   ->  API Server -> Scheduler -> Controll Manager -> etcd.
+   - All the above mentioned managing things are done by master processes.
+   -  API Server -> Scheduler -> Controll Manager -> etcd.
 
    --
    To add new master/node server
@@ -65,10 +65,10 @@ Product cluser setup
 - multiple master and worker nodes
 - seperate virtual or physical machines
 - Minikube = Node -> VirtualBox
--  -> Creates virtual box on your laptop
--  -> nodes runs in that virtual box.
--  -> 1 Node k8s cluster
--   -> for testing purposes
+-   Creates virtual box on your laptop
+-   nodes runs in that virtual box.
+-   1 Node k8s cluster
+-   for testing purposes
 
 **Kubectl** - cli
 mini kubes -- worker process + master process 
