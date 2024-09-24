@@ -49,3 +49,7 @@ O/P -()
 --
 Interpolation
 --
+
+- Types of forms
+-> Template driven form
+-> reactive form -> FormGroup, FormControll, FormBuilder, addAlias, 

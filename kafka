@@ -12,9 +12,25 @@
 11. docker exec -it e8df4ea1d8d1 /bin/sh
 12. kafka-topics.sh --create --zookeeper:2181 --replication-factor 1 --partition 1 --topic quickstart
 13. Kafka connect- source(declarative integration), sink, kafka stream, 
-
+14. key and values, key is optional
+15. we can send message with key or without key.
+16. when sending messages with key, ordering will be maintained as they will be in the same partition.
+17. without key we can not guarantee the ordering of message as consumer poll the messages from all the partitions at the same time.
+18 Segment - part of topic allot the size also
+19 kafka cluster - group of kafka brokers
 
 
 --
 - ./zookeeper-server-start.sh ../config zookeeper.properties
-- 
+- ./kafka-server-start.sh ../config/server.properties
+- ./kafka-topics.sh --create --topic my-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 3
+- ./kafka-console-producer.sh --broker-list localhost:9092 --topic my-topic 
+- ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic my-topic --from-beginning
+- --property "key.seperator='" --property "parse.key=true"
+- __consumer_offset
+- ./kafka-topics.sh --bootstrap-server=location:9092 --list
+- ./kafka-consumer-groups.sh --bootstrap-server localhost:9
+092 --list
+- --group consumer_name
+- ./kafka-topics.sh --describe --topic my-topic --bootstrap-server localhost:9092 --topic my-topic
+- to create cluster - copy the multiple server.properties file and change the id
