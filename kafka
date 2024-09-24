@@ -1,4 +1,6 @@
-1. Topic, Partition, Consumers
+1. Topic, Partition, Consumers, Groups
+2. Partition have single consumer
+3. Consumer have many partitions
 2. Zookeeper AutoScaling
 3. docker run -p 2181:2181 zookeeper
-4. docker run -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=10.196.24.57:2181 -e KAFKA_ADVERTISED_LISTNERS=PLAINTEXT://10.196.24.57:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 confluentinc/cp-kafka
+4. docker run -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=10.196.24.57:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://10.196.24.57:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 confluentinc/cp-kafka
