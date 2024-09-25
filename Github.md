@@ -1,6 +1,7 @@
 - ssh jaya.thakur@192.168.50.3 -D1444
 -  nc -zv localhost 1444
 -  git config --list
+-  git config user.name jaya-thakur
 - git config --local https.proxy socks5://localhost:1444
 - git config --local http.proxy socks5://localhost:1444
 - git config --local http.https://github.rsym-cicd.blr.rsicdcdns.lab.sslVerify false
