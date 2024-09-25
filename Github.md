@@ -6,3 +6,4 @@
 - git config --local http.proxy socks5://localhost:1444
 - git config --local http.https://github.rsym-cicd.blr.rsicdcdns.lab.sslVerify false
 - git clone https://token@github.rsym-cicd.blr.rsicdcdns.lab/OSS/maven-repo.git -c http.proxy=192.168.50.3:3128 -c http.https://github.rsym-cicd.blr.rsicdcdns.lab.sslverify=false
+- nslookup github.rsym-cicd.blr.rsicdcdns.lab
