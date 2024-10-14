@@ -72,3 +72,11 @@ update
 
 keyclock
 OAuth authentication
+
+
+--
+JSON WEB TOKEN (JWT)
+1. type and code type
+2. payload
+3. secret = header, payload
+   
