@@ -52,4 +52,23 @@ Interpolation
 
 - Types of forms
 -> Template driven form
--> reactive form -> FormGroup, FormControll, FormBuilder, addAlias, 
+-> reactive form -> FormGroup, FormControll, FormBuilder, addAlias,
+
+
+--
+shared module
+entry set
+directives
+interceptors
+lifecycle
+cascading -> interceptors
+observables -> real time using interceptors
+subject
+entry 
+
+
+swagger editor
+update
+
+keyclock
+OAuth authentication
