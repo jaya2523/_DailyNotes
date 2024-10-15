@@ -175,4 +175,38 @@ For Customization of swagger
 --
 1. to create configuration file - info, servers, tags(for ordering)
 2. @Tag to change heading of every method
-3. @Operation in controller 
+3. @Operation in controller
+
+--
+File I/O
+--
+1. FileInputStream
+   - Usage: Reads bytes from a file.
+   - When to Use: When you need to read data from a local file.
+3. ByteArrayInputStream
+   - Usage: Reads bytes from a byte array.
+   - When to Use: When you have data already in memory and want to treat it as an input stream.
+4.  BufferedInputStream
+   - Usage: Buffers input to provide efficient reading of bytes.
+   - When to Use: When reading from a slow source (like a file or network) to improve performance.
+5. DataInputStream
+   - Usage: Allows reading primitive data types from an underlying input stream.
+   - When to Use: When you need to read Java primitives (like int, float) from a stream.
+6. PipedInputStream
+   - Usage: Provides an input stream connected to a piped output stream.
+   - When to Use: For inter-thread communication, allowing one thread to read data written by another.
+7. ServletInputStream
+   - Usage: Used in servlets to read binary data from HTTP requests.
+   - When to Use: In web applications to handle file uploads or binary data in requests.
+8. URLConnection.getInputStream()
+   - Usage: Retrieves an input stream for reading data from a URL.
+   - When to Use: When you need to read data from a web resource.
+8. ObjectInputStream
+   - Usage: Reads objects from an input stream.
+   - When to Use: When deserializing objects from a stream.
+
+No manipulation of data required - transferTo
+
+
+
+
