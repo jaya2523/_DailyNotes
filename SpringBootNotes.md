@@ -206,6 +206,10 @@ File I/O
    - When to Use: When deserializing objects from a stream.
 
 No manipulation of data required - transferTo
+--
+Design patterna
+--
+creational, structural, behavioural
 
 
 
