@@ -220,3 +220,8 @@ concurrency -> multiple processes at single processor
 
 threads virtual or in object form 
 
+
+ttl 
+
+type safety
+
