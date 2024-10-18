@@ -212,5 +212,11 @@ Design patterna
 creational, structural, behavioural
 
 
+--
+Golang
+--
+processor -> parallelism
+concurrency -> multiple processes at single processor
 
+threads virtual or in object form 
 
