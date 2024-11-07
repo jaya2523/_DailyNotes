@@ -225,3 +225,19 @@ ttl
 
 type safety
 
+1. SSL/TLS
+Before web - ftp, sftp, ssh -> pass phrase keys(Public private)
+In web - ssl/tls -> certifacte - self signed and CA (Public private key)
+2. Newtwork
+   application
+   Presentation
+   Session - ssh,ssl, tls
+   Transport - gateway modem, 
+   Network -  router,  ip
+   DDl - - switch, mac, rap, arp csm
+   physical, bytes, fiber
+
+self signed ca
+ssl,tls, ssh, ftp,sftp
+networking
+
