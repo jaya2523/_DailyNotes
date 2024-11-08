@@ -98,3 +98,8 @@ minikube service my-app
 •
 kubectl get services
  
+---
+Node Affinity
+--
+Pod Affinity
+--
