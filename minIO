@@ -1,0 +1,7 @@
+*Difference between file storage, block and object storage*
+1. In File storage data is in heirarchichal format and in Block data is in fragmented way and can use file storage over it.
+2. In object storage data will access through api's and it will use high level and block will use low level.
+3. for backup only need to update particular block and in object need to create the whole new file
+4. In block we dont have metdata about the file but in block we have.
+5. Blocks are stored in volumes and Objects are stored in Buckets.
+6. may get complicated and higher in cost when fragmented in block.
