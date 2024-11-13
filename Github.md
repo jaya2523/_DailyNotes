@@ -1,4 +1,4 @@
-- ssh jaya.thakur@192.168.50.3 -D1444
+- tunnel creation(SOCKS PROXY with dynamic port forwarding):  ssh jaya.thakur@192.168.50.3 -D1444
 -  nc -zv localhost 1444
 -  git config --list
 -  git config user.name jaya-thakur
