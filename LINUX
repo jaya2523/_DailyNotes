@@ -1,0 +1,31 @@
+# Understanding Linux File Permissions
+
+In Linux, file permissions are represented as:
+
+<br> rw-rw-rw--
+
+
+Where:
+- **User**: The owner of the file
+- **Group**: Users belonging to the same group as the file's group
+- **Other**: Everyone else
+
+### Permission Values
+- **Read (r)** = 4
+- **Write (w)** = 2
+- **Execute (x)** = 1
+
+The permission values are summed up as:
+- **Read (4)** + **Write (2)** + **Execute (1)** = **7**
+
+### `chmod 777` Command
+The `chmod 777` command gives **full access** (read, write, and execute) to the file or directory for:
+- **User**
+- **Group**
+- **Other**
+
+This means everyone has the ability to read, write, and execute the file or folder.
+
+#### Example:
+```bash
+chmod 777 file.txt
