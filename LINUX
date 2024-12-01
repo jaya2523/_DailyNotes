@@ -29,3 +29,13 @@ This means everyone has the ability to read, write, and execute the file or fold
 #### Example:
 ```bash
 chmod 777 file.txt
+
+
+
+
+----
+FOR CI
+
+1. first need to check the jar using command - jar tf jarname.jar or unzip -ls jarname.jar - Executable or runnable(fat or uber jars).
+2. 
+3.
