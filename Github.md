@@ -21,3 +21,25 @@ Github conflicts resulve
 1. switched to new branch so no need to add new commit.
 2. we are in staging area, when we have conflicts.
 3. then again we need to rebase once the conflicts resolved, then only to generate the pr.
+
+
+--
+Github naming conventions
+--
+1. feature branch - feature/{ticket-id}-{short-description}
+2. bugfix branch - bugfix/{ticket-id}-{short-description}
+3. hotfix/{ticket-id}-{short-description}
+4. experiment/{short-description} or spike/{short-description}
+5. chore/{short-description}
+
+
+--
+Git checkout and switch
+--
+git checkout main                # Switch to the 'main' branch
+git checkout -b new-branch       # Create and switch to 'new-branch'
+git checkout <commit-id> <file>  # Restore a specific file from a commit
+
+git switch main                  # Switch to the 'main' branch
+git switch -c new-branch         # Create and switch to 'new-branch'
+
