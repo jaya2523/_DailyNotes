@@ -13,3 +13,11 @@ https://confluence.rakuten-it.com/confluence/display/RSQS/SymLab_IDM+User+Onboar
 - git config --local http.https://github.rsym-cicd.blr.rsicdcdns.lab.sslVerify false
 - git clone https://token@github.rsym-cicd.blr.rsicdcdns.lab/OSS/maven-repo.git -c http.proxy=192.168.50.3:3128 -c http.https://github.rsym-cicd.blr.rsicdcdns.lab.sslverify=false
 - nslookup github.rsym-cicd.blr.rsicdcdns.lab
+
+
+--
+Github conflicts resulve
+---
+1. switched to new branch so no need to add new commit.
+2. we are in staging area, when we have conflicts.
+3. then again we need to rebase once the conflicts resolved, then only to generate the pr.
