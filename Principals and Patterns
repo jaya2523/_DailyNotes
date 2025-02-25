@@ -19,4 +19,6 @@ class depend on interface rather then concrete class
 B. DESIGN PATTERNS 
 principals for object oriented programming use to create reusable maintanable and managable code writing.
 
-1. STRATEGY DESIGN PATTERN
+1. STRATEGY DESIGN PATTERN - if two subclasses overriding the methods for the same logic then to remove 
+the redundancy of code we use this patter.
+2. OBSERVER DESIGN PATTERN 
