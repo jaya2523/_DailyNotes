@@ -1,0 +1,19 @@
+A. SOLID principals 
+- it avoid duplicacy of code
+- single responsibility principal, open for extend close for modification, liskov's principal, , dependency inversion.
+
+1. SINGLE RESPONSIBILITY PRINCIPAL
+- easy to mantain 
+
+3. Liskov's principal 
+- a subclass can change the object of parent class without changing the behaviour
+- can extend parent capability not should be narrowed
+
+4. Interface Segmented Prinicpal
+- interface should be such that client should not need to impleemtn unenecessary functions
+
+5. dependency inversion 
+class depend on interface rather then concrete class
+
+
+B. DESIGN PATTERNS 
