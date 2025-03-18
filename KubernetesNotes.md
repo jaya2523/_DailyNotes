@@ -103,3 +103,8 @@ Node Affinity
 --
 Pod Affinity
 --
+
+
+Readiness is for "Can I use it yet?"
+Liveness is for "Is it still working?"
+Startup is for "Has it even started?"
